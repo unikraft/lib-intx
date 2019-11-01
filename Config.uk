@@ -6,3 +6,11 @@ menuconfig LIBINTX
 	select LIBUKTIME
 	select LIBNEWLIBC
 	default n
+
+if LIBINTX
+	config LIBINTX_UNITESTS
+	bool "Build unittests"
+	select LIBGOOGLETEST
+	select LIBGOOGLETEST_BUILD_MAIN
+	default n
+endif
