@@ -1,0 +1,8 @@
+menuconfig LIBINTX
+	bool "intx - extended precision integer library"
+	select LIBCXX
+	select UKUNISTD
+	select UKSYSINFO
+	select LIBUKTIME
+	select LIBNEWLIBC
+	default n
