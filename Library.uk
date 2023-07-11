@@ -1,0 +1,6 @@
+name        := "intx"
+description := "Extended precision integer C++ library."
+gitrepo     := "https://github.com/chfast/intx.git"
+homepage    := "https://github.com/chfast/intx/"
+version     := 0.4.0 sha256:b25f71b5c2575443444b2f2dffd60b8825dc06e6f0a144a38e0d58fffa91420a https://github.com/chfast/intx/archive/v0.4.0.tar.gz
+license     := "Apache-2.0"
