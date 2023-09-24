@@ -40,8 +40,8 @@ $(eval $(call addlib_s,libintx,$(CONFIG_LIBINTX)))
 ################################################################################
 # Sources
 ################################################################################
-LIBINTX_VERSION=0.4.0
-LIBINTX_URL=https://github.com/chfast/intx/archive/v$(LIBINTX_VERSION).tar.gz
+LIBINTX_VERSION=0.10.1
+LIBINTX_URL=https://github.com/unikraft/lib-intx/archive/refs/heads/staging.zip
 LIBINTX_PATCHDIR=$(LIBINTX_BASE)/patches
 $(eval $(call fetch,libintx,$(LIBINTX_URL)))
 
