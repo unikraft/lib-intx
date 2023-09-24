@@ -40,7 +40,7 @@ $(eval $(call addlib_s,libintx,$(CONFIG_LIBINTX)))
 ################################################################################
 # Sources
 ################################################################################
-LIBINTX_VERSION=0.4.0
+LIBINTX_VERSION=0.10.0
 LIBINTX_URL=https://github.com/chfast/intx/archive/v$(LIBINTX_VERSION).tar.gz
 LIBINTX_PATCHDIR=$(LIBINTX_BASE)/patches
 $(eval $(call fetch,libintx,$(LIBINTX_URL)))
